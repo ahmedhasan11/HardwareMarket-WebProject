@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css for sub sites.css">
+</head>
+<body>
+    <a href="second page.html"><h1 style="color:rgb(14, 188, 191); text-align:center;" >  <i> Sigma Store </i>  </h1></a>
+            <h3><nav style="color:aliceblue;margin-left: 1050px;" >
+                <a href="second page.html">Home |</a>
+                <a href="Laptops.html">Laptops |</a>
+                <a href="Keyboards.html">Keyboards |</a>
+                <a href="Monitors.html">Monitors |</a>
+                <a href="Mouses.html">Mouses </a>
+              </nav></h3>
+              <label style="color:rgb(243, 238, 238);" for="items">Search About:</label>
+              <input list="itemList" id="items" name="items" autocomplete="off" >
+              <datalist id="itemList">
+                <option value="Laptops">
+                <option value="Monitors">
+                <option value="Keyboards">
+                <option value="Mouses">
+              </datalist>
+              
+            
+              <button onclick="redirectToSelected()">Go to Website</button>
+            
+            
+              <script>
+                function redirectToSelected() {
+                  var selectedItem = document.getElementById('items').value;
+                  var destinationUrl;
+            
+                  switch (selectedItem) {
+                    case 'Laptops':
+                      destinationUrl = "Laptops.html";
+                      break;
+                    case 'Monitors':
+                      destinationUrl = "Monitors.html";
+                      break;
+                    case 'Keyboards':
+                      destinationUrl = "Keyboards.html";
+                      break;
+                    case 'Mouses':
+                      destinationUrl = "Mouses.html";
+                      break;
+                    default:
+                      // Handle default case or show an error message
+                      break;
+                  }
+            
+                  if (destinationUrl) {
+                    // Redirect to the selected website
+                    window.location.href = destinationUrl;
+                  }
+                }
+              </script>
+              <table style="border:1000px;" >
+                <tr>
+                    <td>
+                      <figure><img src="../Photos/Monitors Photos/1.jpg">    
+                      <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                    </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/10.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/11.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/12.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                      <figure><img src="../Photos/Monitors Photos/2.jpg">    
+                      <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                    </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/3.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/4.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/5.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                </tr>
+                \                <tr>
+                    <td>
+                      <figure><img src="../Photos/Monitors Photos/6.jpg">    
+                      <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                    </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/7.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/8.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                    <td>
+                        <figure><img src="../Photos/Monitors Photos/9.jpg">    
+                            <figcaption style="text-align: center;">ifdagofdb</figcaption>
+                          </figure>
+                    </td>
+                </tr>
+              </table>
+    
+</body>

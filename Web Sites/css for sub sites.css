@@ -1,0 +1,12 @@
+body{
+    background-image: url(../Photos/BackGround/wallpaperflare.com_wallpaper\ \(16\).jpg);
+    background-repeat: no-repeat; 
+   background-size: cover;
+ }
+ td{
+ border: 1px solid;
+ background-blend-mode: color;
+ }
+ a{
+  color:rgb(14, 188, 191)
+ }

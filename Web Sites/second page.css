@@ -1,0 +1,17 @@
+body{
+
+
+    background-image: url(../Photos/BackGround/wallpaperflare.com_wallpaper\ \(16\).jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+label{
+    /* margin-left: 1100px; */
+}
+input{
+    /* margin-left: 1100px; */
+}
+a{
+    color:rgb(14, 188, 191)
+   }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="second page.css">
+    <title> Computer market</title>
+</head>
+
+<body>
+
+    <h1 style="color:rgb(14, 188, 191); text-align:center;" >  <i> Sigma Store </i> </h1>
+    <h3><nav style="color:aliceblue;margin-left: 1050px;" >
+      <a href="second page.html">Home |</a>
+      <a href="Laptops.html">Laptops |</a>
+      <a href="Keyboards.html">Keyboards |</a>
+      <a href="Monitors.html">Monitors |</a>
+      <a href="Mouses.html">Mouses </a>
+    </nav></h3>
+            <label style="color:rgb(243, 238, 238);" for="items">Search About:</label>
+            <input list="itemList" id="items" name="items" autocomplete="off" >
+  <datalist id="itemList">
+    <option value="Laptops">
+    <option value="Monitors">
+    <option value="Keyboards">
+    <option value="Mouses">
+  </datalist>
+  
+
+  <button onclick="redirectToSelected()">Go to Website</button>
+
+
+  <script>
+    function redirectToSelected() {
+      var selectedItem = document.getElementById('items').value;
+      var destinationUrl;
+
+      switch (selectedItem) {
+                    case 'Laptops':
+                      destinationUrl = "Laptops.html";
+                      break;
+                    case 'Monitors':
+                      destinationUrl = "Monitors.html";
+                      break;
+                    case 'Keyboards':
+                      destinationUrl = "Keyboards.html";
+                      break;
+                    case 'Mouses':
+                      destinationUrl = "Mouses.html";
+                      break;
+                    default:
+                      // Handle default case or show an error message
+                      break;
+                  }
+
+      if (destinationUrl) {
+        // Redirect to the selected website
+        window.location.href = destinationUrl;
+      }
+    }
+  </script>
+
+            
+            <h1 style="color:rgb(98, 170, 188)"> <u>About us: </u> </h2>
+            <p style="color:white">
+                <h2 style="color:white">this is a computer market that sells</h2>
+                 <ul style="color:white">
+                  <li><h3><i>Laptops</i></h3></li>
+                  <li><h3><i>Keyboards</i></h3></li>
+                  <li><h3><i>Processors</i></h3></li>
+                  <li><h3><i>Monitors</i></h3></li>
+                </ul>
+            </p>
+            <p style="color:white">
+                „Best Selection. Best Service.“ With constant development since 1999, this belief has made us into one of the leading online shops for electronic goods.<br> We have set standards in the industry – always geared to customer requirements.<br> We are reliable partners for everyone; whether beginner or professional. Continuous live assessments of customer rating portals<br> such as “Geizhals“ or “Facebook“ underlines this.<br>
+                Apart from your satisfaction, your security is truly important to us.<br> The service and the security regarding online shopping with computeruniverse have already been tested comprehensively and awarded.<br> To consistently fulfil our customers´ expectations, we attach particular importance to the highest quality and security standards as far as the website and internal processes are concerned. This is guaranteed by strict and regular testing carried out by independent external institutes (EHI).
+            </p>
+
+</body>
+</html>
